@@ -1,0 +1,10 @@
+<h1>THESE ARE YOUR CATS</h1>
+
+<div class="catBox">
+  {{#each cats}}
+      <h2 class="name">{{this.name}}</h2>
+      <img src='{{this.image}}'>
+      <p>Story: {{this.story}}</p>
+      <p>Lives: {{this.lives}}</p>
+  {{/each}}
+</div>
